@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/44644b9f28.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <title>As Criminalistas</title>
+  </head>
+  <body> 
+    <div class="tudo"> 
+      <header class="menu-container">
+        <div id="myNav" class="menu">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="menu-content">
+            <a href="#">Home</a>
+            <a href="#atuacao">Areas</a>
+            <a href="#form">Contato</a>
+          </div>
+        </div>
+        <button class="nav-button" onclick="openNav()">
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
+        <h1>As Criminalistas</h1>
+      </header>
+      <main>
+        <div class="corpo">   
+          <section class="sobre">
+            <div class="video">
+              <video controls></video>
+            </div>
+            <div class="apresentacao">
+              <h1>Sobre nós</h1>
+              <article>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </article>
+            </div>
+          </section>
+          <section class="atuacao">
+            <h1>Atuação</h1>
+            <div class="areas">
+              <div class="processos_criminais">
+                <a href="processos_criminais.html">
+                    Processos e investigações criminais
+                </a>
+              </div>
+              <div class="investigacao_defensiva">
+                <a href="investigacao_defensiva.html">
+                    Investigação defensiva
+                </a>
+              </div>
+              <div class="tribunal_juri">
+                <a href="tribunal_juri.html">
+                    Tribunal do júri     
+                </a>
+              </div>
+              <div class="assistencia_vitimas">
+                <a href="assistencia_vitimas.html">
+                    Assistência de vítimas
+                </a>
+              </div>
+              <div class="complice_criminal">
+                <a href="complice_criminal.html">
+                    Complice criminal
+                </a>
+              </div>
+              <div class="eleitoral">
+                <a href="eleitoral.html">
+                    Eleitoral
+                </a>
+              </div>  
+            </div>
+          </section>
+          <section class="problemas">
+            <h1>Qual problema você quer resolver ?</h1>
+            <h2>Escolha uma opção:</h2>
+            <div class="problemas_container">
+              <div class="violencia_domestica">
+                <a href="violencia_domestica.html">
+                    Violência Doméstica
+                </a>
+              </div>
+              <div class="juri">
+                <a href="juri.html">
+                    Júri
+                </a>
+              </div>
+              <div class="cumprimento_pena">
+                <a href="cumprimento_pena.html">
+                    Cumprimento de pena
+                </a>
+              </div>
+              <div class="maconha_cultivo">
+                <a href="maconha.html">
+                    Maconha para cultivo próprio
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section class="formulario">
+            <h1>Entre em contato</h1>
+            <div id="form" class="form">
+              <form>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="input-nome"
+                  placeholder="Nome"
+                  required
+                />
+                <input
+                  type="number"
+                  name="idade"
+                  id="idade"
+                  class="input-idade"
+                  placeholder="Idade"
+                  required
+                />
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  class="input-email"
+                  placeholder="E-mail"
+                  required
+                />
+                <input
+                  type="tel"
+                  name="telefone"
+                  id="telefone"
+                  class="input-telefone"
+                  placeholder="Telefone"
+                  required
+                />
+                <textarea
+                  name="message"
+                  id="message"
+                  class="textarea"
+                  placeholder="Eu estou aqui para  te ajudar. Conte um pouco sobre o seu problema."
+                  required
+                ></textarea>
+                <input type="submit" class="submit" value="Enviar" />
+              </form>
+            </div>
+          </section>
+        </div>   
+      </main>
+      <footer>
+        <div class="footer-p">
+          <p>
+            &copy; Copyright As Criminalistas
+            - 2022
+          </p>
+        </div>
+        <div class="footer-ul">
+          <h5>Redes Sociais:</h5>
+          <ul>
+              <a
+                href="https://www.instagram.com/marianarodriguescpc/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=5575991780102&text="
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>   
+  </body>
+</html>

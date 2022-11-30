@@ -1,0 +1,1079 @@
+/* Geral */
+/* cinzel-regular - latin */
+html {
+  width: 98%;
+}
+
+html body {
+  font-family: 'Cinzel';
+  color: #1a1719;
+  height: 100vh;
+}
+
+.tudo {
+  min-height: 100vh;
+  position: relative;
+}
+
+.corpo {
+  padding-bottom: 120px;
+}
+
+.menu-container {
+  width: 100vw;
+  padding: 0;
+  height: 100px;
+  background-color: #620d1b;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+  top: 0;
+  z-index: 9;
+}
+
+.menu-container h1 {
+  color: #fff;
+  text-align: center;
+  margin-left: 40px;
+  font-size: 24px;
+}
+
+.nav-button {
+  border: 0;
+  padding: 8px;
+  background-color: #620d1b;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.nav-button i {
+  color: #fff;
+}
+
+.menu {
+  background-color: #5f1723;
+  width: 0;
+  height: 50%;
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  transition: all 0.5s;
+}
+
+.menu-content {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.menu-content a {
+  padding: 8px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+}
+
+.closebtn {
+  font-size: 45px;
+  padding: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.sobre {
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+  margin-top: 130px;
+  align-items: center;
+}
+
+.video video {
+  width: 90%;
+  height: 200px;
+  padding: 0;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.apresentacao {
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.apresentacao h1 {
+  text-align: center;
+  font-size: 22px;
+  border-bottom: 1px solid rgb(221, 219, 219);
+  margin-bottom: 15px;
+}
+
+.apresentacao article {
+  text-align: left;
+  font-size: 15px;
+}
+
+.atuacao {
+  width: 90%;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.atuacao h1 {
+  text-align: center;
+  font-size: 22px;
+  border-bottom: 1px solid rgb(221, 219, 219);
+  margin-bottom: 20px;
+}
+
+.areas {
+  width: 95%;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.processos_criminais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #494843;
+}
+
+.processos_criminais a {
+  text-decoration: none;
+  padding: 31px 36px 32px 38px;
+  font-size: 16px;
+  color: #dbdbdb;
+}
+
+.processos_criminais a:hover {
+  color: #dbdbdb;
+}
+
+.investigacao_defensiva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #494843;
+}
+
+.investigacao_defensiva a {
+  text-decoration: none;
+  padding: 31px 36px 32px 38px;
+  font-size: 16px;
+  color: #dbdbdb;
+}
+
+.investigacao_defensiva a:hover {
+  color: #dbdbdb;
+}
+
+.tribunal_juri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #494843;
+}
+
+.tribunal_juri a {
+  text-decoration: none;
+  padding: 31px 36px 32px 38px;
+  font-size: 16px;
+  color: #dbdbdb;
+}
+
+.tribunal_juri a:hover {
+  color: #dbdbdb;
+}
+
+.assistencia_vitimas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #494843;
+}
+
+.assistencia_vitimas a {
+  text-decoration: none;
+  padding: 31px 36px 32px 38px;
+  font-size: 16px;
+  color: #dbdbdb;
+}
+
+.assistencia_vitimas a:hover {
+  color: #dbdbdb;
+}
+
+.complice_criminal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #494843;
+}
+
+.complice_criminal a {
+  text-decoration: none;
+  padding: 31px 36px 32px 38px;
+  font-size: 16px;
+  color: #dbdbdb;
+}
+
+.complice_criminal a:hover {
+  color: #dbdbdb;
+}
+
+.eleitoral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #494843;
+}
+
+.eleitoral a {
+  text-decoration: none;
+  padding: 31px 36px 32px 38px;
+  font-size: 16px;
+  color: #dbdbdb;
+}
+
+.eleitoral a:hover {
+  color: #dbdbdb;
+}
+
+.problemas {
+  width: 90%;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.problemas h1 {
+  text-align: center;
+  font-size: 22px;
+  border-bottom: 1px solid rgb(221, 219, 219);
+  margin-bottom: 15px;
+}
+
+.problemas h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.problemas_container {
+  width: 95%;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.violencia_domestica {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid rgb(221, 219, 219);
+  background-color: rgb(253, 246, 246);
+  box-shadow: inset 0 0 1em rgb(196, 196, 196);
+}
+
+.violencia_domestica a {
+  padding: 30px 90px;
+  text-decoration: none;
+  font-size: 16px;
+  color: currentColor;
+}
+
+.violencia_domestica a:hover {
+  color: currentColor;
+}
+
+.juri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid rgb(221, 219, 219);
+  background-color: rgb(253, 246, 246);
+  box-shadow: inset 0 0 1em rgb(196, 196, 196);
+}
+
+.juri a {
+  padding: 30px 90px;
+  text-decoration: none;
+  font-size: 16px;
+  color: currentColor;
+}
+
+.juri a:hover {
+  color: currentColor;
+}
+
+.cumprimento_pena {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid rgb(221, 219, 219);
+  background-color: rgb(253, 246, 246);
+  box-shadow: inset 0 0 1em rgb(196, 196, 196);
+}
+
+.cumprimento_pena a {
+  padding: 30px 90px;
+  text-decoration: none;
+  font-size: 16px;
+  color: currentColor;
+}
+
+.cumprimento_pena a:hover {
+  color: currentColor;
+}
+
+.maconha_cultivo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid rgb(221, 219, 219);
+  background-color: rgb(253, 246, 246);
+  box-shadow: inset 0 0 1em rgb(196, 196, 196);
+}
+
+.maconha_cultivo a {
+  padding: 30px 90px;
+  text-decoration: none;
+  font-size: 16px;
+  color: currentColor;
+}
+
+.maconha_cultivo a:hover {
+  color: currentColor;
+}
+
+.formulario {
+  width: 95%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.formulario h1 {
+  text-align: center;
+  font-size: 22px;
+  border-bottom: 1px solid rgb(221, 219, 219);
+  margin-bottom: 20px;
+}
+
+.form {
+  margin: 30px 10px 0 10px;
+  background-color: rgb(253, 246, 246);
+  padding: 0.5px;
+}
+
+.form input,
+form textarea {
+  width: 95%;
+  margin: 25px 10px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.form input {
+  padding: 8px 0;
+}
+
+.form textarea {
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.form .submit {
+  width: 95%;
+  height: 50px;
+  font-size: 18px;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.artigo_container {
+  margin: 130px 20px 80px 20px;
+  width: 90%;
+}
+
+.artigo_container h1 {
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 1px solid rgb(221, 219, 219);
+}
+
+.artigo_container article {
+  text-align: left;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-top: 20px;
+  width: 102%;
+  height: 100px;
+  background-color: #620d1b;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-p p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.footer-ul {
+  width: 120px;
+  height: 60px;
+  color: #fff;
+}
+
+.footer-ul h5 {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.footer-ul ul {
+  padding: 0 0 0 10px;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer a {
+  font-size: 23px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-container h1 {
+    margin-left: 4.8em;
+    font-size: 34px;
+  }
+
+  .nav-button {
+    border: 0;
+    padding: 9px;
+    margin: 20px;
+  }
+
+  .sobre {
+    margin-left: 2.3em;
+  }
+
+  .video video {
+    width: 85%;
+    height: 20em;
+  }
+
+  .apresentacao {
+    width: 85%;
+    margin-top: 60px;
+  }
+
+  .apresentacao h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .apresentacao article {
+    font-size: 17px;
+  }
+
+  .atuacao {
+    width: 85%;
+    margin-top: 60px;
+    margin-left: 3.2em;
+  }
+
+  .atuacao h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .areas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .processos_criminais {
+    width: 48%;
+    height: 100px;
+  }
+
+  .investigacao_defensiva {
+    width: 48%;
+    height: 100px;
+  }
+
+  .tribunal_juri {
+    width: 48%;
+    height: 100px;
+  }
+
+  .assistencia_vitimas {
+    width: 48%;
+    height: 100px;
+  }
+
+  .complice_criminal {
+    width: 48%;
+    height: 100px;
+  }
+
+  .eleitoral {
+    width: 48%;
+    height: 100px;
+  }
+
+  .problemas {
+    width: 85%;
+    margin-top: 60px;
+    margin-left: 3.2em;
+  }
+
+  .problemas h1 {
+    font-size: 26px;
+  }
+
+  .problemas h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .problemas_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .violencia_domestica {
+    width: 48%;
+    height: 100px;
+  }
+
+  .juri {
+    width: 48%;
+    height: 100px;
+  }
+
+  .cumprimento_pena {
+    width: 48%;
+    height: 100px;
+  }
+
+  .maconha_cultivo {
+    width: 48%;
+    height: 100px;
+  }
+
+  .formulario {
+    width: 85%;
+    margin-top: 60px;
+    margin-left: 3.2em;
+  }
+
+  .formulario h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .form {
+    width: 98%;
+    margin-left: 5px;
+  }
+
+  .form input {
+    padding: 10px 0;
+  }
+
+  .formulario .input-nome,
+  .formulario .input-idade {
+    display: inline-block;
+    margin-left: 1.5em;
+  }
+
+  .formulario .input-nome {
+    width: 80%;
+    margin-right: 3px;
+    margin-bottom: 10px;
+  }
+
+  .formulario .input-idade {
+    width: 12%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .formulario .input-email,
+  .formulario .input-telefone {
+    display: inline-block;
+    margin-left: 1.5em;
+  }
+
+  .formulario .input-email {
+    width: 60%;
+    margin-right: 3px;
+    margin-bottom: 10px;
+  }
+
+  .formulario .input-telefone {
+    width: 32%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .form textarea {
+    margin-left: 1.5em;
+    width: 93%;
+    height: 160px;
+  }
+
+  .form input::placeholder,
+  .form textarea::placeholder {
+    font-size: 16px;
+  }
+
+  .form .submit {
+    margin-left: 1em;
+    width: 95%;
+  }
+
+  .footer-p p {
+    font-size: 14px;
+    margin-bottom: 7px;
+  }
+
+  .footer-ul h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+
+  .footer-ul ul {
+    padding: 0 0 0 12px;
+  }
+
+  footer a {
+    font-size: 25px;
+    margin-right: 5px;
+    color: #fff;
+  }
+
+  .artigo_container {
+    width: 85%;
+    margin-top: 160px;
+    margin-left: 3.2em;
+  }
+
+  .artigo_container h1 {
+    font-size: 27px;
+  }
+
+  .artigo_container article {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+
+  @media only screen and (min-width: 912px) {
+    .sobre {
+      width: 90%;
+      margin-left: 5%;
+      display: flex;
+      flex-direction: row;
+      padding: 5px;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 200px;
+    }
+
+    .apresentacao {
+      width: 45%;
+      margin: 5px;
+      padding: 5px;
+    }
+
+    .apresentacao h1 {
+      font-size: 24px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .apresentacao article {
+      font-size: 18px;
+    }
+
+    .video {
+      width: 45%;
+      margin-left: 0;
+      margin: 5px;
+    }
+
+    .video video {
+      width: 100%;
+      height: 600px;
+    }
+
+    .atuacao {
+      width: 90%;
+      margin-top: 200px;
+      margin-left: 5%;
+    }
+
+    .atuacao h1 {
+      font-size: 28px;
+      margin-bottom: 80px;
+    }
+
+    .areas {
+      width: 90%;
+      margin-top: 40px;
+      margin-left: 5%;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .processos_criminais {
+      width: 32%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .processos_criminais a {
+      font-size: 14px;
+      margin: 1px;
+      padding: 7.3em 18.5em;
+      transition: 0.3s;
+    }
+
+    .processos_criminais a:hover {
+      background-color: #555555;
+      border: 1px solid #494843;
+    }
+
+    .investigacao_defensiva {
+      width: 32%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .investigacao_defensiva a {
+      font-size: 14px;
+      padding: 7.8em 18.2em;
+      transition: 0.3s;
+    }
+
+    .investigacao_defensiva a:hover {
+      background-color: #555555;
+      border: 1px solid #494843;
+    }
+
+    .tribunal_juri {
+      width: 32%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .tribunal_juri a {
+      font-size: 14px;
+      padding: 7.8em 20.2em;
+      transition: 0.3s;
+    }
+
+    .tribunal_juri a:hover {
+      background-color: #555555;
+      border: 1px solid #494843;
+    }
+
+    .assistencia_vitimas {
+      width: 32%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .assistencia_vitimas a {
+      font-size: 14px;
+      padding: 7.8em 19.3em;
+      transition: 0.3s;
+    }
+
+    .assistencia_vitimas a:hover {
+      background-color: #555555;
+      border: 1px solid #494843;
+    }
+
+    .complice_criminal {
+      width: 32%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .complice_criminal a {
+      font-size: 14px;
+      padding: 7.8em 20em;
+      transition: 0.3s;
+    }
+
+    .complice_criminal a:hover {
+      background-color: #555555;
+      border: 1px solid #494843;
+    }
+
+    .eleitoral {
+      width: 32%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .eleitoral a {
+      font-size: 14px;
+      padding: 8.3em 20em;
+      transition: 0.3s;
+    }
+
+    .eleitoral a:hover {
+      background-color: #555555;
+      border: 1px solid #494843;
+    }
+
+    .problemas {
+      width: 90%;
+      margin-top: 200px;
+      margin-left: 5%;
+    }
+
+    .problemas h1 {
+      font-size: 28px;
+      margin-bottom: 50px;
+    }
+
+    .problemas h2 {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .problemas_container {
+      width: 90%;
+      margin-top: 40px;
+      margin-left: 5%;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .violencia_domestica {
+      width: 49%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .violencia_domestica a {
+      font-size: 16px;
+      padding: 6.7em 25.8em;
+      transition: 0.3s;
+    }
+
+    .violencia_domestica a:hover {
+      background-color: #c0baba;
+      border: 1px solid #a3a2a1;
+    }
+
+    .juri {
+      width: 49%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .juri a {
+      font-size: 16px;
+      padding: 7.2em 29.3em;
+      transition: 0.3s;
+    }
+
+    .juri a:hover {
+      background-color: #c0baba;
+      border: 1px solid #a3a2a1;
+    }
+
+    .cumprimento_pena {
+      width: 49%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .cumprimento_pena a {
+      font-size: 16px;
+      padding: 6.7em 26.6em;
+      transition: 0.3s;
+    }
+
+    .cumprimento_pena a:hover {
+      background-color: #c0baba;
+      border: 1px solid #a3a2a1;
+    }
+
+    .maconha_cultivo {
+      width: 49%;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+
+    .maconha_cultivo a {
+      font-size: 16px;
+      padding: 6.2em 26.6em;
+      transition: 0.3s;
+    }
+
+    .maconha_cultivo a:hover {
+      background-color: #c0baba;
+      border: 1px solid #a3a2a1;
+    }
+
+    .formulario {
+      width: 90%;
+      margin-top: 200px;
+      margin-left: 5%;
+    }
+
+    .formulario h1 {
+      font-size: 28px;
+      margin-bottom: 50px;
+    }
+
+    .form {
+      position: relative;
+      margin: 50px 10px 50px 15%;
+      width: 70%;
+      height: 600px;
+    }
+
+    .formulario .input-nome {
+      width: 85%;
+      margin-left: 20px;
+      padding: 15px;
+      font-size: 18px;
+    }
+
+    .formulario .input-idade {
+      width: 8.8%;
+      padding: 15px;
+      font-size: 18px;
+    }
+
+    .formulario .input-email {
+      width: 68%;
+      margin-left: 20px;
+      padding: 15px;
+      font-size: 18px;
+    }
+
+    .formulario .input-telefone {
+      width: 25.8%;
+      padding: 15px;
+      font-size: 18px;
+    }
+
+    .form textarea {
+      width: 96.2%;
+      height: 320px;
+      margin-left: 20px;
+      padding: 4px 15px;
+      font-size: 18px;
+    }
+
+    .form input::placeholder,
+    .form textarea::placeholder {
+      font-size: 17px;
+    }
+
+    .form .submit {
+      position: absolute;
+      width: 25%;
+      right: 0;
+      bottom: -15px;
+    }
+  }
+}
